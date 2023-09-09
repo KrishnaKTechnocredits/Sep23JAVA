@@ -1,4 +1,5 @@
 // WAP on user defined range,print sum and average of numbers which is divisible by 5 & 7.
+
 package sayali;
 
 class SumAndAverage{
