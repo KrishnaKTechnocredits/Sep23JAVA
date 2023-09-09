@@ -9,7 +9,7 @@ class Bank1{
 	}
 	
 	void creditAmt(int amount){
-		balance = balance + num;
+		balance = balance + amount;
 	}
 	
 	void printBalance(){
@@ -17,7 +17,7 @@ class Bank1{
 	}
 	
 	public static void main(String[] args){
-		Bank bank = new Bank();
+		Bank1 bank = new Bank1();
 		bank.debitAmt(200);
 		bank.creditAmt(500);
 		bank.creditAmt(200);
