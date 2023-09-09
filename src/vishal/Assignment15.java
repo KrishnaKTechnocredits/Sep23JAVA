@@ -16,6 +16,7 @@ class Assignment15{
 		System.out.println("sum is :" + sum);
 	}
 	
+	
 	public static void main(String [] arg)
 	{
 		Assignment15 assignment15 = new Assignment15();
