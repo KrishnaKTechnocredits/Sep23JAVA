@@ -7,6 +7,7 @@ class SumAndAverage{
 	int count=0;
 	
 	void printNumber(int startRange, int endRange){
+		System.out.println("\nNumbers are: ");
 		for(int num=startRange; num<=endRange; num++){
 			if(num%5==0 && num%7==0){
 				System.out.println(num);
@@ -16,6 +17,7 @@ class SumAndAverage{
 					break;
 			}
 		}
+		System.out.println("Found "+count+" numbers which are divisible by 5 & 7");
 		System.out.println("Sum = " +sum);
 		System.out.println("Average = " +sum/count);
 	}
