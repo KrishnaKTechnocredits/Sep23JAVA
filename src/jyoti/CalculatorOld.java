@@ -1,5 +1,5 @@
 package jyoti;
-class Calculator{
+class CalculatorOld{
 	int num1=6;
 	int num2=3;
 	int equal;
@@ -19,17 +19,17 @@ class Calculator{
 	System.out.println("multiplication is =" + equal);
 	}
 	
-	void division(){
+	void division(int num1, int num2){
 	int equal=num1/num2;
 	System.out.println("Division is =" + equal);
 	}
 	
 	public static void main(String[] arg){
-	Calculator calculator = new Calculator();
-	calculator.addition();
-	calculator.substraction();
-	calculator.multiplication();
-	calculator.division();
+	CalculatorOld calc = new CalculatorOld();
+	calc.addition(9,6);
+	calc.substraction(5,4);
+	calc.multiplication(3,9);
+	calc.division(81,9);
 	
 	
 	}
