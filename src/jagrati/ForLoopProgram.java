@@ -9,7 +9,10 @@ class ForLoopProgram{
 		for (int num = passStart; num<=endIndex; num++){
 			if (num%2==0){
 				System.out.println(num);
+<<<<<<< HEAD
 				
+=======
+>>>>>>> 066ad78e0adc1a4f0ecca1bbcd3e2fda917c3fd8
 			}
 		}		
 	}
