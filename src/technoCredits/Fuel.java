@@ -6,6 +6,7 @@ class Fuel{
 	void fillFuel(int topup){
 		System.out.println("Sir, fuel is added worth rs " + topup);
 		totalTopUp = totalTopUp + topup;
+		
 	}
 	
 //	void display(){
