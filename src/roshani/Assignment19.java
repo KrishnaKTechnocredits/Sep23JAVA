@@ -30,20 +30,17 @@ public class Assignment19 {
 		System.out.println("\nFrequency of " + ch + " in "+ input + " is: " + count);
 	}
 	
-	void printLengthOfGivenStringInRev(String input,char ch) {
+	void printLengthOfGivenStringInRev(String input) {
 		System.out.println("\nReverse of string " + input + " is: ");
 		for(int index=input.length()-1;index>=0;index--) {
 			System.out.println(input.charAt(index));
-			if(input.charAt(index) == ch) {
-				count++;
-			}
 		}	
 	}
 	
 	public static void main(String[] args){
 		Assignment19 assignment19 = new Assignment19();
 		assignment19.printLengthOfGivenString("technocredits",'t');
-		assignment19.printLengthOfGivenStringInRev("techno",'o');
+		assignment19.printLengthOfGivenStringInRev("techno");
 	}
 	
 	
