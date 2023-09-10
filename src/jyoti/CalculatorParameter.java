@@ -1,6 +1,6 @@
 //WAP to perform Calculator with parameter
 package jyoti;
-class CalculatorP
+class CalculatorParameter
 {
 	
 	int ans;
@@ -36,7 +36,7 @@ class CalculatorP
 	
 	public static void main(String[] args)
 	{
-		CalculatorP calculator = new CalculatorP();
+		CalculatorParameter calculator = new CalculatorParameter();
 		calculator.add(6,3);
 		calculator.sub(6,3);
 		calculator.mult(6,3);
