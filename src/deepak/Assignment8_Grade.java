@@ -23,7 +23,7 @@ output : Invalid score
 input : 102
 output : Invalid score*/
 package deepak;
-class Grade_Assignment8{
+class Assignment8_Grade{
 	void getGrade(int score){
 		if(score >=90 && score <=100){
 			System.out.println("Based on the score entered, Grade is A+");
@@ -38,7 +38,7 @@ class Grade_Assignment8{
 	}
 	
 	public static void main(String[] args){
-		Grade_Assignment8 grade = new Grade_Assignment8();
+		Assignment8_Grade grade = new Assignment8_Grade();
 		grade.getGrade(92);
 		grade.getGrade(76);
 		grade.getGrade(23);

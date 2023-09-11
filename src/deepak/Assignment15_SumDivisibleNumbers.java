@@ -5,7 +5,7 @@ Input : Range -> 10 to 50
 Output : Expected sum is 150
 */
 package deepak;
-class SumDivisibleNumbers_Assignment15{
+class Assignment15_SumDivisibleNumbers{
 	void sumDivisibleNum(int startIndex, int endIndex){
 		int sum = 0;
 		for(int index = startIndex ; index <= endIndex ; index++){
@@ -16,7 +16,7 @@ class SumDivisibleNumbers_Assignment15{
 		System.out.println("Sum of numbers divisible by 5 & 10 in the given range is "+sum);
 	}
 	public static void main(String[] args){
-		SumDivisibleNumbers_Assignment15 sum = new SumDivisibleNumbers_Assignment15();
+		Assignment15_SumDivisibleNumbers sum = new Assignment15_SumDivisibleNumbers();
 		sum.sumDivisibleNum(10, 50);
 	}
 }

@@ -7,7 +7,7 @@ Rewrite yesterday's BankDetails program with following condition.
 2. If user tries to credit more than 5000 in one go, you should print "You can't deposite more than 5000 rs in one go" and amount should not be credited in main balance. If credited amount is negative, print "Invalid amount".*/
 
 package deepak;
-class BankDetails_Assignment6{
+class Assignment6_BankDetails{
 	int balance = 1000;
 	
 	void debit(int amt){
@@ -37,7 +37,7 @@ class BankDetails_Assignment6{
 	}
 	
 	public static void main(String[] args){
-		BankDetails_Assignment6 bankDetails = new BankDetails_Assignment6();
+		Assignment6_BankDetails bankDetails = new Assignment6_BankDetails();
 		bankDetails.debit(1100);
 		bankDetails.debit(-1100);
 		bankDetails.printbalance();

@@ -26,7 +26,7 @@ Input : debitAmt(100)
 							2 times credit operation performed
 							2 times print statement operation performed*/
 package deepak;
-class BankDetails_Assignment5{
+class Assignment5_BankDetails{
 	int balance = 1000;
 	int debitCount, creditCount, printCount;
 	
@@ -53,7 +53,7 @@ class BankDetails_Assignment5{
 	}
 	
 	public static void main(String[] args){
-		BankDetails_Assignment5 bankDetails = new BankDetails_Assignment5();
+		Assignment5_BankDetails bankDetails = new Assignment5_BankDetails();
 		bankDetails.debitAmt(100);
 		bankDetails.debitAmt(300);
 		bankDetails.printBalance();

@@ -11,7 +11,7 @@ sample input :
 	num2 : 17
 	output : 17 is bigger between 10 and 17.*/
 package deepak;	
-class MaxMinNumbers_Assignment7 {
+class Assignment7_MaxMinNumbers {
     void maxNum(int num1, int num2) {
         if(num1 > num2) {
             System.out.println(num1+" is bigger between "+num1+" and "+num2);
@@ -31,7 +31,7 @@ class MaxMinNumbers_Assignment7 {
     }
 
     public static void main(String[] args) {
-        MaxMinNumbers_Assignment7 maxMinCheck = new MaxMinNumbers_Assignment7();
+        Assignment7_MaxMinNumbers maxMinCheck = new Assignment7_MaxMinNumbers();
         maxMinCheck.maxNum(10, 25);
         maxMinCheck.minNum(15, 10);
     }

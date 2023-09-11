@@ -10,7 +10,7 @@ Output : Even numbers are:
 		 14
 */
 package deepak;
-class EvenNumberCheck_Assignment11{
+class Assignment11_EvenNumberCheck{
 	void evenNum(int startRange, int endRange){
 		System.out.println("Even Numbers in the given range:");
 		for(int index = startRange ; index <= endRange ; index++){
@@ -20,7 +20,7 @@ class EvenNumberCheck_Assignment11{
 	}
 	
 	public static void main(String[] args){
-		EvenNumberCheck_Assignment11 even = new EvenNumberCheck_Assignment11();
+		Assignment11_EvenNumberCheck even = new Assignment11_EvenNumberCheck();
 		even.evenNum(10,15);
 	}
 }

@@ -5,7 +5,7 @@ Input : Range -> 5 to 100
 Output : Last number divisible by 5 & 9 is 90
 */
 package deepak;
-class DivisibleCheck2_Assignment14{
+class Assignment14_DivisibleCheck2{
 	void divisibleTest(int startIndex, int endIndex){
 		for(int index = endIndex ; index >= startIndex ; index--){
 			if(index % 5 == 0 && index % 9 == 0){
@@ -16,7 +16,7 @@ class DivisibleCheck2_Assignment14{
 	}
 	
 	public static void main(String[] args){
-		DivisibleCheck2_Assignment14 divisible = new DivisibleCheck2_Assignment14();
+		Assignment14_DivisibleCheck2 divisible = new Assignment14_DivisibleCheck2();
 		divisible.divisibleTest(5, 100);
 	}
 }

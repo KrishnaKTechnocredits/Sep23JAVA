@@ -1,7 +1,7 @@
 /*WAP for calculator having 4 methods (Add, Subtract, multiply and divide) performing actions for two numbers as 10 and 2.*/
 package deepak;
 
-class Calculator_Assignment1 {
+class Assignment1_Calculator {
 	int num1 = 10;
 	int num2 = 2;
 
@@ -26,7 +26,7 @@ class Calculator_Assignment1 {
 	}
 
 	public static void main(String[] args) {
-		Calculator_Assignment1 calculator = new Calculator_Assignment1();
+		Assignment1_Calculator calculator = new Assignment1_Calculator();
 		calculator.add();
 		calculator.sub();
 		calculator.mul();
