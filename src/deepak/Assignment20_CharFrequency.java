@@ -18,7 +18,7 @@ public class Assignment20_CharFrequency {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Assignment2_CharFrequencyOLD charCount = new Assignment2_CharFrequencyOLD();
+		Assignment20_CharFrequency charCount = new Assignment20_CharFrequency();
 		charCount.allCharFrequency("aakanksha");
 	}
 
