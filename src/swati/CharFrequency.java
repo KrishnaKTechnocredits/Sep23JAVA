@@ -20,5 +20,4 @@ public class CharFrequency {
 		CharFrequency charFrequency = new CharFrequency();
 		charFrequency.printChar("technocredits",'t');
 	}
-
 }
