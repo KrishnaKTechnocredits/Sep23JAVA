@@ -7,6 +7,8 @@ class Calculator2{
 	System.out.println("the sum of given numbers is "+ans);
 	}
 	
+	
+	
 		void subtraction(int num1, int num2){
 	int ans=num1-num2;
 	System.out.println("the subtraction of given numbers is "+ans);
