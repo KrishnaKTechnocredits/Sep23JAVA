@@ -9,7 +9,7 @@ public class DivisibleAvg {
 	void div(int startindex, int endindex) {
 		for(int i=startindex; i<=endindex;i++) {
 			if(i%5==0 && i%7==0) {
-				System.out.println("the numbers are"+i);
+				System.out.println("the numbers are :"+i);
 				count++;
 				sum=sum+i;				
 			}
