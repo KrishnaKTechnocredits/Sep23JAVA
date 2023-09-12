@@ -1,18 +1,6 @@
-/*Write a program to print frequency of each character from given String.
-input : aakanksha
-output : 
-a->4
-a->4
-k->2
-a->4
-n->1
-k->2
-s->1
-h->1
-*/
 package deepak;
 
-class CharFrequency {
+public class Assignment20_CharFrequency {
 	void allCharFrequency(String input) {
 		System.out.println("Input String: " + input);
 
@@ -29,7 +17,9 @@ class CharFrequency {
 	}
 
 	public static void main(String[] args) {
-		CharFrequency charCount = new CharFrequency();
+		// TODO Auto-generated method stub
+		Assignment2_CharFrequencyOLD charCount = new Assignment2_CharFrequencyOLD();
 		charCount.allCharFrequency("aakanksha");
 	}
+
 }
