@@ -10,17 +10,22 @@ public class LengthOfStr {
 		}
 	}
 	
-	void printLengthOfStringReverse(String Input) {
+	void printLengthOfStringReverse(String Input, char ch) {
+		int Count=0;
 		for(int index=Input.length()-1;index>=0;index--) {
 			System.out.println("Reverse String with Index " +index+ ":- " +Input.charAt(index));
+			if(Input.charAt(index)== ch) {
+				Count++;
+			}
 		}
+		System.out.println(ch+ " appears " +Count+ " times");
 	}
 
 	public static void main(java.lang.String[] args) {
 		// TODO Auto-generated method stub
 		LengthOfStr string =new LengthOfStr();
 		string.printLengthOfString("MagicSoftware");
-		string.printLengthOfStringReverse("aditya");
+		string.printLengthOfStringReverse("aditya",'a');
 
 	}
 
