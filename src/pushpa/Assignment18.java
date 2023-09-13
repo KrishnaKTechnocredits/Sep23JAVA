@@ -1,4 +1,4 @@
-//Assignment 18
+package pushpa;
 class Assignment18 {
 
     public void prinSumAndAvg(int start, int end) {
