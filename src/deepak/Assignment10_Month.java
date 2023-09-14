@@ -17,7 +17,7 @@ Quarter -> Q4
 Season -> Winter
 Month Name -> December*/
 package deepak;
-class Month_Assignment10{
+class Assignment10_Month{
 	void monthInfo(int monthIndex){
 		if(monthIndex == 12 || monthIndex == 1 || monthIndex == 2){
 			System.out.println("Quarter -> Q1");
@@ -60,7 +60,7 @@ class Month_Assignment10{
 	}
 	
 	public static void main(String[] args){
-		Month_Assignment10 month = new Month_Assignment10();
+		Assignment10_Month month = new Assignment10_Month();
 		month.monthInfo(1);
 		month.monthInfo(5);
 		month.monthInfo(7);

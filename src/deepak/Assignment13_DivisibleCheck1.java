@@ -13,7 +13,7 @@ Output : Divisible by 7 or 13, numbers are:
 		 7 is divisible by 7
 */
 package deepak;
-class DivisibleCheck1_Assignment13{
+class Assignment13_DivisibleCheck1{
 	void divisibleTest(int startIndex, int endIndex){
 		for(int index = endIndex ; index >=startIndex ; index--){
 			if(index % 7 == 0)
@@ -24,7 +24,7 @@ class DivisibleCheck1_Assignment13{
 	}
 	
 	public static void main(String[] args){
-		DivisibleCheck1_Assignment13 divisible =  new DivisibleCheck1_Assignment13();
+		Assignment13_DivisibleCheck1 divisible =  new Assignment13_DivisibleCheck1();
 		divisible.divisibleTest(5, 40);
 	}
 }

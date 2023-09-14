@@ -4,7 +4,7 @@ void add(int num1, int num2){
 }
 */
 package deepak;
-class CalculatorWithParam_Assignment2{
+class Assignment2_CalculatorWithParam{
 	int answer;
 
 	void add(int num1, int num2){
@@ -28,7 +28,7 @@ class CalculatorWithParam_Assignment2{
 	}
 	
 	public static void main(String[] args){
-		CalculatorWithParam_Assignment2 calculator = new CalculatorWithParam_Assignment2();
+		Assignment2_CalculatorWithParam calculator = new Assignment2_CalculatorWithParam();
 		calculator.add(10, 5);
 		calculator.subtract(20, 10);
 		calculator.multiply(10, 2);

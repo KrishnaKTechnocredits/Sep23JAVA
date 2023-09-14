@@ -11,7 +11,7 @@ void display(){
 	sop(total); //20
 }*/
 package deepak;
-class CalculatorTricky_Assignment3{
+class Assignment3_CalculatorTricky{
 	int totalAnswer;
 	
 	void add(int num1, int num2){
@@ -43,7 +43,7 @@ class CalculatorTricky_Assignment3{
 	}
 	
 	public static void main(String[] args){
-		CalculatorTricky_Assignment3 calculator = new CalculatorTricky_Assignment3();
+		Assignment3_CalculatorTricky calculator = new Assignment3_CalculatorTricky();
 		calculator.add(10, 5);
 		calculator.subtract(20, 5);
 		calculator.multiply(10, 4);

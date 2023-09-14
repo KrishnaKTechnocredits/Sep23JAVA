@@ -8,7 +8,7 @@ Output : Divisible by 5 & 3, numbers are:
 		 30
 */
 package deepak;
-class DivisibleCheck_Assignment12{
+class Assignment12_DivisibleCheck{
 	void divisibleTest(int startIndex, int endIndex){
 		System.out.println("Divisible by 5 & 3, numbers are:");
 		for(int index = startIndex ; index <= endIndex ; index++){
@@ -18,7 +18,7 @@ class DivisibleCheck_Assignment12{
 	}
 	
 	public static void main(String[] args){
-		DivisibleCheck_Assignment12 divisible = new DivisibleCheck_Assignment12();
+		Assignment12_DivisibleCheck divisible = new Assignment12_DivisibleCheck();
 		divisible.divisibleTest(5, 40);
 	}
 }

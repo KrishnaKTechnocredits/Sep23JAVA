@@ -12,7 +12,7 @@ dayIndex -> 11 : Invalid Index
 dayIndex -> -3 : Invalid Index
 */
 package deepak;
-class Weekday_Asssignment9{
+class Asssignment9_Weekday{
 	void weekdayInfo(int index){
 		if(index >=1 && index <=5){
 			System.out.println("WEEKDAY");
@@ -37,7 +37,7 @@ class Weekday_Asssignment9{
 	}
 	
 	public static void main(String[] args){
-		Weekday_Asssignment9 day = new Weekday_Asssignment9();
+		Asssignment9_Weekday day = new Asssignment9_Weekday();
 		day.weekdayInfo(2);
 		day.weekdayInfo(6);
 		day.weekdayInfo(11);

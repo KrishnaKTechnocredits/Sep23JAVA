@@ -10,7 +10,7 @@ instance variable : firstName, lastName, cmpName, city, pincode
 main -> setPrimaryInfo() -> setOtherInfo() -> printAllDetails()
 */
 package deepak;
-class Bank_Assignment4{
+class Assignment4_Bank{
 	String firstName;
 	String lastName;
 	String cmpName;
@@ -37,7 +37,7 @@ class Bank_Assignment4{
 	}
 	
 	public static void main(String[] args){
-		Bank_Assignment4 bank = new Bank_Assignment4();
+		Assignment4_Bank bank = new Assignment4_Bank();
 		bank.setPrimaryInfo("Deepak","Kankhar");
 		bank.setOtherInfo("Deloitte", "Pune", 411033);
 		bank.printAllDetails();
