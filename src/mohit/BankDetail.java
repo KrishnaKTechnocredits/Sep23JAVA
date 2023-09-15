@@ -1,5 +1,32 @@
-package mohit;
+/*Assignment - 5 : 4th Sep'2023
 
+Create a call called BankDetail.
+Instance variable can be,
+balance = 1000
+debitCount
+creditCount
+printStatementCount
+
+?*1. Method for DebitAmt(int amt), CreditAmt(int amt), printStatement : print current balance, printCountInfo
+2. printCountInfo should print,
+	remaining balance
+	how many times Debit operation performed
+	how many  times Credit operation performed
+	how many  times PrintStatement operation performed
+
+Input : debitAmt(100)
+		debitAmt(300)
+		printStatement()
+		debitAmt(100)
+		creditAmt(600)
+		printStatement()
+		creditAmt(400)
+		printCountInfo() -> remaining balance is 1500 rs, 
+		                    3 times Debit operation performed
+							2 times credit operation performed
+							2 times print statement operation performed	
+*/
+package mohit;
 
 class BankDetail{
 	
