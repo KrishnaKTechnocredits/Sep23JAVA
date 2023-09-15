@@ -15,7 +15,12 @@ class Example21{
 	}
 	
 	public static void main(String[] args){
+<<<<<<< Updated upstream
 		Example20 example20 = new Example20();
 		example20.processData1(1,100);
+=======
+		Example21 example21 = new Example21();
+		example21.proccessData1(1,100);
+>>>>>>> Stashed changes
 	}
 }
