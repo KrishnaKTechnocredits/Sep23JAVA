@@ -1,3 +1,11 @@
+/*Assignment - 23 : 14th Sep'2023
+Write a program to find count of Uppercase, lowercase, digits and special characters.
+
+String str = "TecHNo_cR6ediTs";
+output : Uppercase -> 5
+         Lowercase -> 8
+		 Digit -> 1
+		 Special char count -> 1 */
 package shrutika;
 
 public class UpperLowerCase {
