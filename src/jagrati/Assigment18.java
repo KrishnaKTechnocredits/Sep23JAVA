@@ -1,7 +1,4 @@
 package jagrati;
-
-
-
 /////On user defined range print sum and average of numbers which is divisible by 5 & 7.
 //Hint : pass start and end index as a parameter.
 
