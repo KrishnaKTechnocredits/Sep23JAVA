@@ -1,5 +1,5 @@
 // WAP to perform bank operations
-
+package dhiraj;
 class Bank{
 
 	int balance=1000;

@@ -13,7 +13,7 @@ public class Assignment21 {
 	}
 	
 	void getMaximumCharFrequency(String inputName) {
-		int maxFrequency = 0;z
+		int maxFrequency = 0;
 		char maxChar =' ';
 		for(int index=0; index<inputName.length(); index++) {
 			char ch = inputName.charAt(index);
