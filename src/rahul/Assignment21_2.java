@@ -10,7 +10,7 @@ public class Assignment21_2 {
 	void uniqueCharacter(String input) {
 		for (int index = 0; index < input.length(); index++) {
 			if (input.indexOf(input.charAt(index)) == input.lastIndexOf(input.charAt(index))) {
-				System.out.println(input.charAt(index));
+				System.out.print(input.charAt(index));
 			}
 		}
 	}
