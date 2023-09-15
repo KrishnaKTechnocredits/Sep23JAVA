@@ -15,7 +15,7 @@ public class TestClass {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        abcd obj = new abcd();
+        TestClass obj = new TestClass();
         obj.DataProcess("technocredit");
 
     }
