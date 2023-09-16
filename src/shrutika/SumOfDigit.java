@@ -23,5 +23,4 @@ public class SumOfDigit {
 		SumOfDigit sumOfDigit = new SumOfDigit();
 		sumOfDigit.CharFreqSumOfDigit("Rah5ulTEC6Hnoc2redItS");
 	}
-
 }
