@@ -1,3 +1,9 @@
+/*Assignment - 24 : 16th Sep'2023
+
+Write a program to print sum of all the digits within given input.
+String str = "Rah5ulTEC6Hnoc2redItS";
+output : 13 */
+
 package shrutika;
 
 public class SumOfDigit {
