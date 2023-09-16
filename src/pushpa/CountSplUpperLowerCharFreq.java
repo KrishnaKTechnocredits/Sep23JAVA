@@ -14,11 +14,12 @@ public class CountSplUpperLowerCharFreq {
 	public void countSplUpperLowerCharFreqency(String str) {
 		int upperCount = 0, lowerCount = 0, digitCount = 0, splCount = 0;
 		for (int i = 0; i < str.length(); i++) {
-			if (Character.isUpperCase(str.charAt(i)))
+			char ch = str.charAt(i);
+			if (Character.isUpperCase(ch))
 				upperCount++;
-			else if (Character.isLowerCase(str.charAt(i)))
+			else if (Character.isLowerCase(ch))
 				lowerCount++;
-			else if (Character.isDigit(str.charAt(i)))
+			else if (Character.isDigit(ch))
 				digitCount++;
 			else
 				splCount++;
