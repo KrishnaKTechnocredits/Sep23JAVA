@@ -1,6 +1,7 @@
 package denish;
 
 public class Assignment23 {
+	
 	public static void main(String[] args) {
 		
 		String str ="TecHNo_cR6ediTs";
@@ -10,6 +11,7 @@ public class Assignment23 {
 		int specialcount=0;
 		
 		for(int index=0; index<str.length(); index++) {
+			
 			if(Character.isUpperCase(str.charAt(index))) {
 				ucount++;
 			}else if(Character.isLowerCase(str.charAt(index))) {
