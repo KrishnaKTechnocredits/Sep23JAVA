@@ -11,14 +11,15 @@ class CountStringCasesNSum{
 	int sum=0;
 	
 	void stringCheck(String input){
-		
-		
+		System.out.println("Digits are :");		
 		for (int index=0;index<input.length();index++){
 			if(Character.isDigit(input.charAt(index))){
 				dCount++;
 				sum=sum+(Character.getNumericValue(input.charAt(index)));
+				System.out.println(Character.getNumericValue(input.charAt(index)));
 				}
 			}
+			System.out.println("*****************************************");
 			System.out.println("Sum of all digit in given string is: "+sum);
 		}
 
