@@ -25,7 +25,7 @@ public class MaxCharFreq {
 				maxChar = ch;
 			}
 		}
-		System.out.println(maxChar + "->" + maxFreq);
+		System.out.println(input+"->"+maxChar + "->" + maxFreq);
 
 	}
 
