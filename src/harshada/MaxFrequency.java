@@ -9,6 +9,7 @@ public class MaxFrequency {
 	
 	int getCharfreq(String input, char ch) {
 		int count=0;
+		
 		for(int index=0; index<input.length(); index++) {
 			if(ch==input.charAt(index)) {
 				count++;
@@ -17,17 +18,23 @@ public class MaxFrequency {
 		return count;
 	}
 	
-	void printMaxFreqChar(String input) {
+	void printMaxFreqChar(String input) 
+	{
 		int maxFreq= 0 ;
 		char maxchar= ' ' ;
-		for( int index=0; index<input.length(); index++) {
-		char ab = input.charAt(index);
-		int freq = getCharfreq( input , ab);
-			if( maxFreq <= freq ) {
-			maxFreq = freq ;
-			maxchar = ab ;
+		
+		for( int index=0; index<input.length(); index++)
+		{
+			char ab = input.charAt(index);
+			int freq = getCharfreq( input , ab);
+			
+			if( maxFreq <= freq ) 
+			{
+				maxFreq = freq ;
+				maxchar = ab ;
 			}
-		}System.out.println(input+" -> "+maxchar+" -> "+maxFreq);
+		}
+		System.out.println(input+" -> "+maxchar+" -> "+maxFreq);
 	}
 	
 	public static void main(String[] args) {
