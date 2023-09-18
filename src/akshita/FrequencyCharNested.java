@@ -1,5 +1,5 @@
 //WAP to print the frequency of all character using nested for loop.
-//Input: "aakansha"
+//Input: "aakanksha"
 //Output: a->4, k->2,n->1,s->1,h->1
 
 
@@ -26,7 +26,7 @@ public class FrequencyCharNested {
 
 	public static void main(String[] args) {
 		FrequencyCharNested frequencyCharNested = new FrequencyCharNested();
-		String ch= "aakansha";
+		String ch= "aakanksha";
 		System.out.println("Input : " + ch);
 		frequencyCharNested.printFreqChar(ch);
 	}
