@@ -1,7 +1,7 @@
 /*Assingment - 29 : 18th Sep'2023
 Print the last non repeatative character using while loop.
 String str = "technocredits";
-output : h
+output : s
 */
 
 package roshani;
@@ -9,12 +9,12 @@ package roshani;
 public class Assignment29{
 
 	void lastNonRepChar(String str){
-		while(str.length()>1){
+		while(str.length()>0){
 			int orgLen = str.length();
 			char ch = str.charAt(str.length()-1);
 			str = str.replace(String.valueOf(ch),"");
 			int newLen = str.length();
-			if(orgLen-newLen > 1 ){
+			if(orgLen-newLen == 1 ){
 				System.out.println("Last non-repeatative character in given string is: '" +ch+"'");
 				break;
 			}
