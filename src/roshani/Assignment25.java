@@ -12,23 +12,24 @@ package roshani;
 
 public class Assignment25{
 	
-	void printFreqOfAllChar(String str){
-		for(int index = 0; index < str.length(); index++){
+	void printCharFreq(String input) {
+		for (int index=0; index<input.length(); index++) {
+			char ch = input.charAt(index);
 			int count = 0;
-			char ch = str.charAt(index);
-			if(ch != '*'){
-				for(int innerIndex = 0; innerIndex < str.length(); innerIndex++){
-					if (ch == str.charAt(innerIndex)){
+			if(ch != '*') {
+				for (int innerIndex=0; innerIndex<input.length(); innerIndex++) {
+					if (input.charAt(innerIndex)==ch) {
 						count++;
-						System.out.println(ch +"-->"+ count);
-						str = str.replace(ch, '*');
 					}
 				}
+				System.out.println(ch+"-->"+count);
+				input = input.replace(ch, '*');
 			}
 		}
-	}	
-	public static void main(String[] args){
+	}
+
+	public static void main(String[] args) {
 		Assignment25 assignment25 = new Assignment25();
-		assignment25.printFreqOfAllChar("aakanksha");
+		assignment25.printCharFreq("aakanksha");
 	}
 }
