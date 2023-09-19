@@ -22,5 +22,4 @@ public class FirstRepeatativeChar {
 		FirstRepeatativeChar frirstRepeatativeChar = new FirstRepeatativeChar();
 		frirstRepeatativeChar.repeatativeChar("abcdcededffff");
 	}
-
 }
