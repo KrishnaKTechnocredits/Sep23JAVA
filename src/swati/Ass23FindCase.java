@@ -1,8 +1,8 @@
 /*Assignment - 23 : 14th Sep'2023 Write a program to find count of Uppercase, lowercase, digits and special characters. String str = "TecHNo_cR6ediTs"; output : 
 Uppercase -> 5  
 Lowercase -> 8 
-Digit -> 1 Special
-char count -> 1*/
+Digit -> 1 
+Special char count -> 1*/
 
 package swati;
 
@@ -14,11 +14,12 @@ public class Ass23FindCase {
 
 	void findCharCase(String input) {
 		for (int index = 0; index < input.length(); index++) {
-			if (Character.isUpperCase(input.charAt(index))) {
+			char ch = input.charAt(index);
+			if (Character.isUpperCase(ch)) {
 				uppercasecount++;
-			} else if (Character.isLowerCase(input.charAt(index))) {
+			} else if (Character.isLowerCase(ch)) {
 				lowercasecount++;
-			} else if (Character.isDigit(input.charAt(index))) {
+			} else if (Character.isDigit(ch)) {
 				digitcount++;
 			} else {
 				specialcount++;
