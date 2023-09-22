@@ -1,3 +1,11 @@
+/*Assignment - 2
+Write a program called CalculatorWithParam, all 4 methods should be parameterized.
+hint : 
+void add(int num1, int num2){
+
+}*/
+
+
 package mohit;
 
 class CalculatorWithParam{
