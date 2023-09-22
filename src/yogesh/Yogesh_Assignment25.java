@@ -28,7 +28,7 @@ public class Yogesh_Assignment25 {
 		}
 		
 		public static void main(String[] args) {
-			CharFreq charFreq = new CharFreq();
+			Yogesh_Assignment25 charFreq = new Yogesh_Assignment25();
 			charFreq.printCharFreq("aakanksha");
 		}
 	}
