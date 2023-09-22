@@ -1,15 +1,15 @@
-/*Assingment - 28 : 18th Sep'2023
-Print the first non repeatative character using while loop.
+/* Assingment - 29 : 18th Sep'2023
+Print the last non repeatative character using while loop.
 String str = "technocredits";
-output : h*/
+output : h */
 package mayank;
 
-public class Assignment28 {
-	
-		void firstNonRepeatitive(String input){
+public class Assignment29 {
+
+		void lastNonRepeatitive(String input){
 			while(input.length()>0){
 				int orglength = input.length();
-				char ch = input.charAt(0);
+				char ch = input.charAt(input.length()-1);
 				input = input.replace(String.valueOf(ch),"");
 				int newlength = input.length();
 					if (orglength-newlength==1){
@@ -19,9 +19,10 @@ public class Assignment28 {
 				}
 			}
 			public static void main(String[] args){
-				Assignment28 assignment28 = new Assignment28();
-				assignment28.firstNonRepeatitive("technocredits");
+				Assignment29 assignment29 = new Assignment29();
+				assignment29.lastNonRepeatitive("technocreditss");
 		}
 		
 	}
+
 
