@@ -18,10 +18,7 @@ public class AllCharFreqWhile {
 			char ch= input.charAt(0);
 			input= input.replace(String.valueOf(ch),"");
 			int newLength= input.length();
-			
-			if(orgLength-newLength>=1) {
-				System.out.println(ch+"-->"+ (orgLength-newLength));
-			}
+			System.out.println(ch+"-->"+ (orgLength-newLength));
 		}
 	}
 	
