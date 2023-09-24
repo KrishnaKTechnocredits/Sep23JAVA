@@ -12,7 +12,6 @@ public class Exam1 {
 		String outputDigit = "";
 		String outputUppercase = "";
 		String outputLowercase = "";
-		String finalOutput = "";
 		for (int index = 0; index < input.length(); index++) {
 			if (Character.isDigit(input.charAt(index))) {
 				outputDigit = outputDigit + input.charAt(index);
