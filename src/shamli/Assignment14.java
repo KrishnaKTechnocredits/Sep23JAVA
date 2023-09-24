@@ -1,3 +1,8 @@
+/*
+ * On user defined range print all numbers which are divisible by 7 or 13 in reverse order.
+Hint : pass start and end index as a parameter.
+Input : Range -> 5 to 40
+ */
 package shamli;
 
 public class Assignment14 {
