@@ -33,6 +33,5 @@ public class Yogesh_Assignment32 {
 		Yogesh_Assignment32 assignment32 = new Yogesh_Assignment32();
 		assignment32.printCase("TeCHNoc33r44editS");
 	}
-
 }
 
