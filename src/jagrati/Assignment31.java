@@ -1,5 +1,7 @@
-/*Write a method which takes input and return all Uppercase from given input using ascii.
-input : "TeCHNocreditS";output : TCHNS
+/*Assignment-31 : 23nd Sep'2023 
+Write a method which takes input and return all Uppercase from given input using ascii.
+input : "TeCHNocreditS";
+output : TCHNS
  */
 
 package jagrati;
@@ -20,5 +22,3 @@ public class Assignment31 {
 		String output = new Assignment31().getUppercase("TeCHNocreditS");
 	}
 }	
-
-			
