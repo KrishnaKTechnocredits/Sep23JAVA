@@ -13,7 +13,7 @@ public class Assignment31 {
 			char ch = input.charAt(index);
 			int output = ch; 
 			if(output > 65 && output <90) {
-				System.out.print(ch);
+				System.out.print("all Uppercase from given input using ascii is = "+ ch);
 			}
 		}
 		return input;
@@ -21,4 +21,4 @@ public class Assignment31 {
 	public static void main(String[] args) {
 		String output = new Assignment31().getUppercase("TeCHNocreditS");
 	}
-}
+}	
