@@ -1,4 +1,5 @@
 package shrutika;
+
 class Bank{
 	int balance=1000;
 	
@@ -8,7 +9,6 @@ class Bank{
 
 	void creditAmt(int amt){
 		balance= balance+amt;
-		
 	}
 
 	void printBalance(){
