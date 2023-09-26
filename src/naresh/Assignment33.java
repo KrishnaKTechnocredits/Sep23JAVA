@@ -1,32 +1,25 @@
 package naresh;
 
 public class Assignment33 {
+	int printSumOfTheEvenNo(int[] input) {
+		int sum = 0;
+		for (int index = 0; index < input.length; index++) {
 
-	String m1(String input) {
-		String digits = "";
+			if (input[index] % 2 == 0)
 
-		String upper = "";
-		String lower = "";
+				sum = sum + input[index];
 
-		for (int index = 0; index < input.length(); index++) {
-			char ch = input.charAt(index);
-			if (Character.isDigit(ch)) {
-				digits = digits + ch;
-
-			} else if (Character.isLowerCase(ch)) {
-				lower = lower + ch;
-			} else if (Character.isUpperCase(ch)) {
-				upper = upper + ch;
-			}
 		}
-		String output = digits + lower + upper;
-		return output;
+
+		return sum;
+
 	}
 
 	public static void main(String[] args) {
-		Assignment33 assignment33 = new Assignment33();
-		System.out.println(assignment33.m1("TeCHNoc33r44editS"));
-
+		Assignment33 a = new Assignment33();
+		int[] num = { 10, 11, 44, 33, 23 };
+		int num1 = a.printSumOfTheEvenNo(num);
+		System.out.println(num1);
 	}
-}
 
+}
