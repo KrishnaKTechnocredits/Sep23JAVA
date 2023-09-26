@@ -1,7 +1,3 @@
-
-
-
-
 package naresh;
 
 public class Assignment33 {
