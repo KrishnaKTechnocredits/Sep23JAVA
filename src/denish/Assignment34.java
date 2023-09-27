@@ -1,7 +1,5 @@
 package denish;
 
-import shrutika.AsciiAssig31;
-
 public class Assignment34 {
 
 	void printSumOfNumber(int[] arr) {
