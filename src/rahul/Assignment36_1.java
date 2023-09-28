@@ -13,12 +13,12 @@ public class Assignment36_1 {
 		String firstValue = "";
 		String lastValue = "";
 		firstValue = input[0];
-		lastValue = input[input.length-1];
+		lastValue = input[input.length - 1];
 		temp = firstValue;
 		firstValue = lastValue;
 		lastValue = firstValue;
 		input[0] = firstValue;
-		input[input.length-1] = lastValue;
+		input[input.length - 1] = lastValue;
 		System.out.println(Arrays.toString(input));
 	}
 
