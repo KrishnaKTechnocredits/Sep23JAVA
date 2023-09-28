@@ -28,7 +28,7 @@ public class Assignment34_1 {
 		} else if (oSum > eSum) {
 			outputSum = oSum - eSum;
 		} else if (eSum == oSum) {
-			System.out.println("Addition of even and odd is same hence cannot find sum");
+			System.out.println("Addition of even and odd is same hence cannot find difference");
 		}
 		return outputSum;
 	}
