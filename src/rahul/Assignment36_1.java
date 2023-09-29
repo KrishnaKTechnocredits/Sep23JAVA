@@ -16,7 +16,7 @@ public class Assignment36_1 {
 		lastValue = input[input.length - 1];
 		temp = firstValue;
 		firstValue = lastValue;
-		lastValue = firstValue;
+		lastValue = temp;
 		input[0] = firstValue;
 		input[input.length - 1] = lastValue;
 		System.out.println(Arrays.toString(input));
