@@ -6,27 +6,25 @@ output : yO7geSh */
 package shrutika;
 
 public class CovertLowerToUpperA39 {
-	
+
 	void lowerToUpper(String input) {
-		String output ="";
-		for(int index=0;index<input.length();index++) {
-			char ch= input.charAt(index);
-			if(Character.isLowerCase(ch)) {
-				output =output+Character.toUpperCase(ch);
-			}else if (Character.isUpperCase(ch)) {
-				output =output+Character.toLowerCase(ch);
-				
-			}else if(Character.isDigit(ch)) {
-				output= output+ch;
+		String output = "";
+		for (int index = 0; index < input.length(); index++) {
+			char ch = input.charAt(index);
+			if (Character.isLowerCase(ch)) {
+				output = output + Character.toUpperCase(ch);
+			} else if (Character.isUpperCase(ch)) {
+				output = output + Character.toLowerCase(ch);
+
+			} else if (Character.isDigit(ch)) {
+				output = output + ch;
 			}
 		}
-				System.out.println(output);
+		System.out.println(output);
 	}
-	
 
 	public static void main(String[] args) {
-		CovertLowerToUpperA39 covertLowerToUpperA39 =new CovertLowerToUpperA39();
+		CovertLowerToUpperA39 covertLowerToUpperA39 = new CovertLowerToUpperA39();
 		covertLowerToUpperA39.lowerToUpper("Yo7GEsH");
 	}
-
 }
