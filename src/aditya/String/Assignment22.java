@@ -1,13 +1,11 @@
 package aditya.String;
 
 public class Assignment22 {
-	
 	void nonRepeatative(String input) {
 		for(int index=0; index<input.length(); index++) {
 			char ch =input.charAt(index);
 			if(input.indexOf(ch)==input.lastIndexOf(ch)){
 					System.out.println(ch);
-		
 			}
 		}
 	}	
@@ -21,5 +19,4 @@ public class Assignment22 {
 		// TODO Auto-generated method stub
 
 	}
-
 }
