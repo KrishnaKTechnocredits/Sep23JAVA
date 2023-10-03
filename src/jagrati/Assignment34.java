@@ -21,7 +21,7 @@ public class Assignment34 {
 			sum = oddNum - evenNum;
 		return sum;
 	}
-	
+  
 	public static void main(String[] args) {
 		int[] num ={10,3,44,33,35};
 		int sum = new Assignment34().getSum(num);
