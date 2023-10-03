@@ -69,13 +69,18 @@ public class Assignment37_InheritanceCases {
 	}
 
 	void case6() {
-		System.out.println("CASE-6: TypeCasting");
-		Assignment37_Manager case6_parent = new Assignment37_Manager();
+		System.out.println("CASE-6: Similar to Case-2");
+		Assignment37_Manager case6_parent = new Assignment37_Employee();
 		Assignment37_Employee case6_child = new Assignment37_Employee();
-		// case6_child = case6_parent; // CE, Type casting required
-		// case6_child = (Assignment37_Employee)case6_parent; // RunTime Error -
-		// java.lang.ClassCastException
-
+		case6_child = (Assignment37_Employee) case6_parent; // CE, Type casting required
+		
+		System.out.println(case6_child.x); // 10
+		System.out.println(case6_child.y); // 30
+		System.out.println(case6_child.z); // 40
+		case6_child.m1(); // Manager - m1
+		case6_child.m2(); // Employee - m2
+		case6_child.m3(); // Employee - m3
+		
 	}
 
 	public static void main(String[] args) {
