@@ -12,22 +12,28 @@ Output : Numbers are,
 */
 
 package nivedita;
+
 class A18SumAvg{
-	void proccessData1(int startRange, int endRange){
-		int count = 0;
-		int sum = 0;
-		for(int num=endRange;num>=startRange;num--){
-			if(num%5==0 && num%7==0){
-				sum = sum + num;
-				count++;
+
+		void sumAvg(int startIndex, int endIndex){
+			int sum=0;
+			int avg=0;
+			
+			
+			for(int num=startIndex ; num<=endIndex ; num++){
+				if(num%5==0 && num%7==0){
+					System.out.println("Number of division by 5 and 7 is : "+num);
+					sum= sum+num;
+					avg++;
+					
+				}
 			}
+			System.out.println("Sum of number is : "+sum);
+			System.out.println("Average of number is : "+ (sum / avg));
 		}
-		System.out.println(sum);
-	}
-	
-	public static void main(String[] args){
-		A17DivisibleNum divisibleNum = new A17DivisibleNum();
-		System.out.println("The numbers divisible by 5 and 7 are : ");
-		divisibleNum.proccessData(1,100);
+		
+		public static void main(String[] args){
+			A18SumAvg a18sumAvg = new A18SumAvg();
+			a18sumAvg.sumAvg(1,110);
 		}
-}		 
+}
