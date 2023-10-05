@@ -3,6 +3,7 @@ package rahul;
 public class Assignment37_1_Case5 {
 	
 	public static void main(String[] args) {
+		System.out.println("------ Case 5 ------");
 		Assignment37_1_ClassA a = new Assignment37_1_ClassA();
 		Assignment37_1_ClassB b = new Assignment37_1_ClassB();
 		a = b; // Assignment37_1_ClassA a1 = new Assignment37_1_ClassB();

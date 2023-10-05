@@ -5,6 +5,7 @@ public class Assignment37_1_Case3 {
 	public static void main(String[] args) {
 
 		Assignment37_1_ClassA c3 = new Assignment37_1_ClassB();
+		System.out.println("------ Case 3 ------");
 		System.out.println(c3.num1);
 		System.out.println(c3.num2);
 		System.out.println(Assignment37_1_ClassA.str);
