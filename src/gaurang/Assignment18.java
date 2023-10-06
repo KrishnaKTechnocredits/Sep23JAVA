@@ -11,7 +11,7 @@ public class Assignment18 {
 		for(int index = start; index<end ; index++) {
 			if (index%5==0 && index%7==0) {
 				sum = sum + index;
-				count++;
+				count++; 
 			}
 		}
 		int avg = sum/count;
