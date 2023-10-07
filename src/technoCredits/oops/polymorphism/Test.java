@@ -38,6 +38,7 @@ class Test {
 
 	void m1(Object s) {
 		System.out.println(8);
+		
 	}
 
 }
