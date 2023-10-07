@@ -8,10 +8,9 @@ package rahul;
 public class Assignment40_1 {
 
 	void subStringVowel(String input, char ch) {
-		String temp = input.toLowerCase();
-		int firstChar = temp.indexOf(ch);
-		int lastChar = temp.lastIndexOf(ch);
-		String output = temp.substring(firstChar, lastChar);
+		int firstChar = input.indexOf(ch);
+		int lastChar = input.lastIndexOf(ch);
+		String output = input.substring(firstChar, lastChar);
 		System.out.println("Output is: " + output);
 	}
 
