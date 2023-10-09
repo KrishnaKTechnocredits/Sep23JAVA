@@ -13,6 +13,8 @@ public class UpperCaseAssig30 {
 		for (int index = 0; index < input.length(); index++) {
 			if (Character.isUpperCase(input.charAt(index))) {
 				output = output + input.charAt(index);
+				//char ch = input.charAt(index); 
+				//System.out.println(Character.isUpperCase(ch));
 			}
 		}
 		System.out.println(output);
