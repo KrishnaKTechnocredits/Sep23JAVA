@@ -27,7 +27,7 @@ public class Discussion2_FirstProgram {
 	}
 
 	public static void main(String[] args) {
-		Discussion2 t = new Discussion2();
+		Discussion2_FirstProgram t = new Discussion2_FirstProgram();
 		t.runTest("JayKauamarapqw");
 	}
 }
