@@ -10,7 +10,6 @@ package shamli;
 public class Assignment29 {
 
 	void printLastNonRepChar(String input){
-
 		System.out.println("Input String is :"+input);
 		while(input.length()!=0) {
 			int originalLength=input.length();
@@ -18,7 +17,6 @@ public class Assignment29 {
 			input=input.replace(String.valueOf(ch),"");
 			int newLength=input.length();
 			int count=originalLength-newLength;
-
 			if(count==1) {
 				System.out.println("Last non repetative char from string is :"+ch);
 				break;
