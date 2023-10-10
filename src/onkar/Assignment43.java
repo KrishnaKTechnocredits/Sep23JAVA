@@ -10,14 +10,25 @@ public class Assignment43 {
 	String outerString;
 	String innerString; 
 	int sum;
+	int diff;
 	
-	void findStringSum (String input) {
+	void findStringSumAndDiff (String input) {
 		outerString = input.substring(0, input.indexOf('e')) + input.substring(input.lastIndexOf('e'));
 		innerString = input.substring(input.indexOf('e')+1, input.lastIndexOf('e'));
 		calSum(innerString);
 		System.out.println("Inner sum: "+sum);
+		int innerSum = sum;
+		
 		calSum(outerString);
 		System.out.println("Outer sum: "+sum);
+		int outerSum = sum;
+		
+		if(innerSum>outerSum)
+			diff = innerSum - outerSum;
+		else if (outerSum>innerSum)
+			diff = outerSum - innerSum;
+		
+		System.out.println("Difference between sums is : "+diff);
 	}
 	
 	void calSum (String input) {
@@ -31,6 +42,6 @@ public class Assignment43 {
 	
 	public static void main(String[] args) {
 		Assignment43 assignment43 = new Assignment43();
-		assignment43.findStringSum("t1ec5ehno4e7credit983");
+		assignment43.findStringSumAndDiff("t1ec5ehno4e7credit983");
 	}
 }
