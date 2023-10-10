@@ -1,3 +1,16 @@
+/*
+ * Assignment-30 : 22nd Sep'2023
+ 
+Write a method which takes input and return to return all Uppercase from given input.
+
+input : "TeCHNocreditS";
+output : TCHNS
+
+Hint : we can add characters in string like below.
+String output = "";
+output = output + str.charAt(index)
+ */
+
 package shamli;
 
 public class Assignment30 {
