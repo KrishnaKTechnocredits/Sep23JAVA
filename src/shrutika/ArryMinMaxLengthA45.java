@@ -22,14 +22,19 @@ public class ArryMinMaxLengthA45 {
 
 	void maxLengthName(String[] arry) {
 		int maxLength = 0;
+		int minLength=0;
 		String maxLengthName = "";
 		String minLengthName = "";
 		for (int index = 0; index < arry.length; index++) {
 			int length = lengthOfString(arry[index]);
-			if (length > maxLength) {
+			if(index==0){
+			maxLength =length;
+			minLength=length;
+			}else if (length > maxLength) {
 				maxLength = length;
 				maxLengthName = arry[index];
-			} else if (length < maxLength) {
+			} else if (length < minLength) {
+				minLength=length;
 				minLengthName = arry[index];
 			}
 		}
