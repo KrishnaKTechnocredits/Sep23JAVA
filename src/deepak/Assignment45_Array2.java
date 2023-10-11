@@ -18,14 +18,14 @@ import java.util.Arrays;
 public class Assignment45_Array2 {
 
 	int getLength(String input) {
-		int temp = input.length();
 		int strLen = input.length();
 		return strLen;
 	}
 
-	void getMaxLengthString(String[] input) {
+	void getMaxMinLengthString(String[] input) {
 		int temp = input[0].length();
 		String max = "";
+		String min = "";
 		for (int index = 0; index < input.length; index++) {
 			int strLen = getLength(input[index]);
 			if (temp < strLen) {
@@ -33,12 +33,6 @@ public class Assignment45_Array2 {
 				max = input[index];
 			}
 		}
-		System.out.println("Max length String is: "+max);
-	}
-
-	void getMinLengthString(String[] input) {
-		int temp = input[0].length();
-		String min = "";
 		for (int index = 0; index < input.length; index++) {
 			int strLen = getLength(input[index]);
 			if (temp > strLen) {
@@ -46,7 +40,8 @@ public class Assignment45_Array2 {
 				min = input[index];
 			}
 		}
-		System.out.println("Min length String is: "+min);
+		System.out.println("Max length String is: " + max);
+		System.out.println("Min length String is: " + min);
 	}
 
 	public static void main(String[] args) {
@@ -56,10 +51,7 @@ public class Assignment45_Array2 {
 		input[1] = "Technocredits";
 		input[2] = "J6a6y";
 		input[3] = "cred5it2s";
-		System.out.println("Input : "+Arrays.toString(input));
-		output.getMaxLengthString(input);
-		output.getMinLengthString(input);
-
+		System.out.println("Input : " + Arrays.toString(input));
+		output.getMaxMinLengthString(input);
 	}
-
 }
