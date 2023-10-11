@@ -16,25 +16,25 @@ package shrutika;
 public class ArryMinMaxLengthA45 {
 
 	int lengthOfString(String input) {
-	//	System.out.println(input.length());
+		// System.out.println(input.length());
 		return input.length();
 	}
 
 	void maxLengthName(String[] arry) {
 		int maxLength = 0;
-		int minLength=0;
+		int minLength = 0;
 		String maxLengthName = "";
 		String minLengthName = "";
 		for (int index = 0; index < arry.length; index++) {
 			int length = lengthOfString(arry[index]);
-			if(index==0){
-			maxLength =length;
-			minLength=length;
-			}else if (length > maxLength) {
+			if (index == 0) {
+				maxLength = length;
+				minLength = length;
+			} else if (length > maxLength) {
 				maxLength = length;
 				maxLengthName = arry[index];
 			} else if (length < minLength) {
-				minLength=length;
+				minLength = length;
 				minLengthName = arry[index];
 			}
 		}
