@@ -2,7 +2,7 @@
 //int[] ={13,45,2,48,89,91}
 //Output : (91-2)89
 
-package array;
+package akshita.array;
 
 import java.util.Arrays;
 

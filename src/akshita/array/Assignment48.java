@@ -2,7 +2,7 @@
 //Input : input[0]="Rah2u4l"; input[1]="Tech3no3CRedits"
 //Output : Output = ["rAH2U4L" , "tECH3NO3crEDITS"]
 
-package array;
+package akshita.array;
 
 import java.util.Arrays;
 
