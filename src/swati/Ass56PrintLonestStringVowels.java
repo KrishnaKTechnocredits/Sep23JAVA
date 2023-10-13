@@ -1,4 +1,5 @@
-/*Assignment-55 : 13th Oct'2023 Print vowels of longest string in an array
+/*Assignment-56 : 13th Oct'2023 Print vowels of longest string in an array
+
 String[] str = {"technocredits","aakanksha","yogesh","shamli"}; 
 output : technocredits -> eoei     
    */
