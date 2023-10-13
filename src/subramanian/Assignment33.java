@@ -17,7 +17,7 @@ public class Assignment33 {
 
 	public static void main(String[] args) {
 		Assignment33 assignment33 = new Assignment33();
-		int[] input = { 10, 20, 30, 40, 50 };
+		int[] input = { 10, 11, 44, 33, 23 };
 		assignment33.printArraySum(input);
 
 	}
