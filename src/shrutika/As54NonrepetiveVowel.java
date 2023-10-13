@@ -22,7 +22,7 @@ public class As54NonrepetiveVowel {
 			if (count == 1)
 				str = str + ch;
 		}
-		System.out.println(str);
+		System.out.println("non repetitive vowels from given String -> " +str);
 	}
 
 	public static void main(String[] args) {
