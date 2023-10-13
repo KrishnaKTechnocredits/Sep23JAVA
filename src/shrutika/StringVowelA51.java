@@ -17,7 +17,7 @@ public class StringVowelA51 {
 	}
 
 	public static void main(String[] args) {
-		StringVowelA51 arrayVowelA51 = new StringVowelA51();
-		arrayVowelA51.getVowel("technocredits");
+		StringVowelA51 stringVowelA51 = new StringVowelA51();
+		stringVowelA51.getVowel("technocredits");
 	}
 }
