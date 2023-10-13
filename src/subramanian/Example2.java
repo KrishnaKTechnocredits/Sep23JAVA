@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 class Example2{
 	int num1=10;
 	int num2=20;

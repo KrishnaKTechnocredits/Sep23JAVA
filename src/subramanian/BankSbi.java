@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 class BankSbi{
 	
 	String firstName;

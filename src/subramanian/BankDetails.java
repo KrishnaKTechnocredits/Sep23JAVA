@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 
 class BankDetails{
 	int balance=5000;

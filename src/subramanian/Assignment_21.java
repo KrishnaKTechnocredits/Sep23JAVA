@@ -1,6 +1,6 @@
 /*Write a program to find character having maximum frequency from given String.*/
 
-package subramanium;
+package subramanian;
 
 public class Assignment_21 {
 
