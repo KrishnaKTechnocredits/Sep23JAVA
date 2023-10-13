@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 class Number{
 
 	void MaxNum(int Num1, int Num2){

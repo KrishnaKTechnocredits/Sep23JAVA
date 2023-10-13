@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 class Transaction{
 	int balance=1000;
 	int debitAmountCount;

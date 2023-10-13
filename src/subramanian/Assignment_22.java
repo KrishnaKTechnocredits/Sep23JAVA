@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 
 public class Assignment_22 {
 

@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 class StudentGrade{
 	
 	void score(int score){

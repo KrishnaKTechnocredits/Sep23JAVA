@@ -1,6 +1,6 @@
 //Write a program to find count of Uppercase, lowercase, digits and special characters.
 
-package subramanium;
+package subramanian;
 
 public class Assignment23 {
 	void findCharCase(String input) {

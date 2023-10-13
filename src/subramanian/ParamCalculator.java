@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 class ParamCalculator{
 
 	void add(int num1,int num2){

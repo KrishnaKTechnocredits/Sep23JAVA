@@ -1,4 +1,4 @@
-package subramanium;
+package subramanian;
 class Student
 {
 	String name="Subbu";
