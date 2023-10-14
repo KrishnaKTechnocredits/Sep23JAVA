@@ -30,24 +30,23 @@ public class Assignment44_1 {
 		if (flag == true && upper == "") {
 			upper = input;
 			return upper;
-		}
-		else 
+		} else
 			return upper;
 	}
 
 	void getString(String[] input) {
 		String str = "";
-		String[] arrayOutput = new String [input.length];
+		String[] arrayOutput = new String[input.length];
 		for (int index = 0; index < input.length; index++) {
 			str = input[index];
 			arrayOutput[index] = checkForDigit(str);
 		}
 		System.out.println(Arrays.toString(arrayOutput));
 	}
-	
+
 	public static void main(String[] args) {
 		Assignment44_1 assignment44_1 = new Assignment44_1();
-		String[] arr = {"Rah2u4l", "Technocredits", "J6a6y", "cred5it2s"};
+		String[] arr = { "Rah2u4l", "Technocredits", "J6a6y", "cred5it2s" };
 		assignment44_1.getString(arr);
 	}
 }
