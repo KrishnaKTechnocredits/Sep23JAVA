@@ -8,7 +8,6 @@ String str = "technocredits";
 output : eoei
 */
 
-
 package deepak;
 
 public class Assignment51_GetVowels{
