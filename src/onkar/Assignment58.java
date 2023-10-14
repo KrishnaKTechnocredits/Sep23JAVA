@@ -7,19 +7,14 @@ package onkar;
 
 public class Assignment58 {
 	
-	void printSpecialCharacters (String input) {
-		input = input.toLowerCase();
+	void printSpecialCharacters (String input) {input = input.toLowerCase();
 		String output = "";
 		for (int index=0; index<input.length(); index++) {
 			char ch = input.charAt(index);
 			if (Character.isDigit(ch) || Character.isLetter(ch)) {
-				input = input.replace(ch, '?');
-			}
-		}
-		for (int i=0; i<input.length(); i++) {
-			char ch = input.charAt(i);
-			if (ch != '?')
+			}else {
 				output += ch;
+			}
 		}
 		System.out.println(output);
 	}
