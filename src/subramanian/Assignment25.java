@@ -1,6 +1,15 @@
+/*Assignment 25
+ 	Print the freq of all character using nested for loop. 
+	String str = "aakansha";
+	output : a -> 4
+         k -> 2
+		 n -> 1 
+		 s -> 1
+         h -> 1*/
+
 package subramanian;
 
-public class CharFreq02 {
+public class Assignment25 {
 
 	void printCharFreq(String input) {
 		for (int index = 0; index < input.length(); index++) {
@@ -11,15 +20,16 @@ public class CharFreq02 {
 					if (ch == input.charAt(innerIndex)) {
 						count++;
 					}
-				}System.out.println(ch + "-->" + count);
+				}
+				System.out.println(ch + "-->" + count);
 				input = input.replace(ch, '*');
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		CharFreq02 charFreq02 = new CharFreq02();
-		charFreq02.printCharFreq("aakanksha");
+		Assignment25 assignment25 = new Assignment25();
+		assignment25.printCharFreq("aakanksha");
 
 	}
 

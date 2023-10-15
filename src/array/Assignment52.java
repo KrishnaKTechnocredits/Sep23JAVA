@@ -16,7 +16,6 @@ public class Assignment52 {
 		}
 		System.out.println("Count of Vowels : " + count);
 	}
-
 	public static void main(String[] args) {
 		Assignment52 ass52 = new Assignment52();
 		String input = "technocredits";
