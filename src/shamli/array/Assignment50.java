@@ -11,10 +11,9 @@ import java.util.Arrays;
 public class Assignment50 {
 	
 	void processArray(int[] arr) {
-		int[] arr2=new int[arr.length];
 		Arrays.sort(arr);
-		System.out.println(Arrays.toString(arr));
-		System.out.println(arr[arr.length-2]);	
+		System.out.println("Sorted Array is:"+Arrays.toString(arr));
+		System.out.println("Second Max number from Array is :"+arr[arr.length-2]);
 	}
 
 	public static void main(String[] args) {
