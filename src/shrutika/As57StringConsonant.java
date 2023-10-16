@@ -14,9 +14,9 @@ public class As57StringConsonant {
 		for (int index = 0; index < input.length(); index++) {
 			char ch = input.charAt(index);
 			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-				consonantsCount++;
-			} else
 				vowelsCount++;
+			} else
+				consonantsCount++;
 		}
 		System.out.println(input + "\nVowels are -> " + vowelsCount + "\nConsonants are -> " + consonantsCount);
 	}
