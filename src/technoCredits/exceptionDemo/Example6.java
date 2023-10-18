@@ -2,7 +2,7 @@ package technoCredits.exceptionDemo;
 
 public class Example6 {
 	
-	void m1() {
+	public void m1() {
 		try {
 			System.out.println("m1 start");
 			m2(1);
