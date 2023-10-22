@@ -16,7 +16,7 @@ public class Assignment50_1 {
 				max = array[index];
 			}
 		}
-		System.out.println(secondMax);
+		System.out.println("Second max is: " + secondMax);
 	}
 
 	public static void main(String[] args) {
