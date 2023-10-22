@@ -1,21 +1,13 @@
 package technoCredits;
 
-class Example1{
-	int num;
+public class Example1 {
+
+	int roll;
 	String name;
-	
-	void processData() {
-		num=10; // upated instance //
-	}
-	
-	void display() {
-		System.out.println("Number is " + num);
-	}
-	
-	public static void main(String[] args) {
-		Example1 example1 = new Example1();
-		example1.display();
-		example1.processData();
-		example1.display();
+	static String collegName = "Atmiya";
+
+	void m1() {
+		int rank = 0;
+		rank = rank +1;
 	}
 }
