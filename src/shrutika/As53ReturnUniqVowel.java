@@ -3,7 +3,7 @@ String str = "aakaniksha eaep dube";
 output : aieu */
 package shrutika;
 
-public class ReturnUniqVowelA53 {
+public class As53ReturnUniqVowel {
 
 	void uniqueVowel(String input) {
 		String str = "";
@@ -18,7 +18,7 @@ public class ReturnUniqVowelA53 {
 	}
 
 	public static void main(String[] args) {
-		ReturnUniqVowelA53 returnUniqVowelA53 = new ReturnUniqVowelA53();
+		As53ReturnUniqVowel returnUniqVowelA53 = new As53ReturnUniqVowel();
 		returnUniqVowelA53.uniqueVowel("aakaniksha eaep dube");
 	}
 }

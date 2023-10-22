@@ -6,7 +6,7 @@ String str = "R1hlTns7h";
 output : 0 */
 package shrutika;
 
-public class SumofDigitA38 {
+public class As38SumofDigit {
 
 	boolean getVowels(String input) {
 		boolean flag = false;
@@ -37,7 +37,7 @@ public class SumofDigitA38 {
 	}
 
 	public static void main(String[] args) {
-		SumofDigitA38 sumofDigitA38 = new SumofDigitA38();
+		As38SumofDigit sumofDigitA38 = new As38SumofDigit();
 		String input = "Pu1ne5Ind3ia";
 		boolean output = sumofDigitA38.getVowels(input);
 		System.out.println(output);

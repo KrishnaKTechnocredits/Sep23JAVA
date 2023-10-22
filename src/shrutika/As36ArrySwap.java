@@ -6,7 +6,7 @@ package shrutika;
 
 import java.util.Arrays;
 
-public class ArrySwapA36 {
+public class As36ArrySwap {
 
 	void swapArry(String[] input) {
 		System.out.println("Before = " + Arrays.toString(input));
@@ -19,7 +19,7 @@ public class ArrySwapA36 {
 
 	public static void main(String[] args) {
 		String[] ArrInput = { "Sayli", "deepak", "Nivedita", "Yogesh" };
-		ArrySwapA36 arrySwapA36 = new ArrySwapA36();
+		As36ArrySwap arrySwapA36 = new As36ArrySwap();
 		arrySwapA36.swapArry(ArrInput);
 	}
 }

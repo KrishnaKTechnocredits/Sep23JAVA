@@ -4,7 +4,7 @@ Input: technocredits
 Output: echnocr */
 package shrutika;
 
-public class RepeatingVowelA40 {
+public class As40RepeatingVowel {
 
 	void vowel(String input, char ch) {
 		String output = "";
@@ -14,10 +14,11 @@ public class RepeatingVowelA40 {
 			output = input.substring(firstIndex, lastIndex);
 		}
 		System.out.println(output);
+		System.out.println(input.toUpperCase());
 	}
 
 	public static void main(String[] args) {
-		RepeatingVowelA40 repeatingVowelA40 = new RepeatingVowelA40();
+		As40RepeatingVowel repeatingVowelA40 = new As40RepeatingVowel();
 		repeatingVowelA40.vowel("technocredits", 'e');
 	}
 }

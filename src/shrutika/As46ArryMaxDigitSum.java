@@ -10,7 +10,7 @@ String[] input = new String[4];
 output : J6a6y -> 12 */
 package shrutika;
 
-public class ArryMaxDigitSumA46 {
+public class As46ArryMaxDigitSum {
 
 	int getSumOfDigit(String input) {
 		int sum = 0;
@@ -37,7 +37,7 @@ public class ArryMaxDigitSumA46 {
 	}
 
 	public static void main(String[] args) {
-		ArryMaxDigitSumA46 arryMaxDigitSumA47 = new ArryMaxDigitSumA46();
+		As46ArryMaxDigitSum arryMaxDigitSumA47 = new As46ArryMaxDigitSum();
 		String[] input = new String[4];
 		input[0] = "Rah2u4l";
 		input[1] = "Tech3no3credits";

@@ -4,7 +4,7 @@ Input: pqrabcgtyes
 Output: abcgtyes */
 package shrutika;
 
-public class FirstVowelA41 {
+public class As41FirstVowel {
 
 	void stringFirstVowel(String input) {
 		String output = "";
@@ -21,7 +21,7 @@ public class FirstVowelA41 {
 	}
 
 	public static void main(String[] args) {
-		FirstVowelA41 firstVowelA41 = new FirstVowelA41();
+		As41FirstVowel firstVowelA41 = new As41FirstVowel();
 		firstVowelA41.stringFirstVowel("pqrabcgtyes");
 	}
 }

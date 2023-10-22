@@ -8,7 +8,7 @@ output : Sayli -> S
 
 package shrutika;
 
-public class ArryFirstLetterOfArryA35 {
+public class As35ArryFirstLetterOfArry {
 
 	void printArray(String[] input) {
 		for (int index = 0; index < input.length; index++) {
@@ -19,7 +19,7 @@ public class ArryFirstLetterOfArryA35 {
 
 	public static void main(String[] args) {
 		String[] arryInput = { "Sayli", "deepak", "Nivedita", "Yogesh" };
-		ArryFirstLetterOfArryA35 arryFirstLetterOfArryA35 = new ArryFirstLetterOfArryA35();
+		As35ArryFirstLetterOfArry arryFirstLetterOfArryA35 = new As35ArryFirstLetterOfArry();
 		arryFirstLetterOfArryA35.printArray(arryInput);
 	}
 }

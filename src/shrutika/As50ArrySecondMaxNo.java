@@ -6,7 +6,7 @@ package shrutika;
 
 import java.util.Arrays;
 
-public class ArrySecondMaxNoA50 {
+public class As50ArrySecondMaxNo {
 
 	int[] ascendingOrder(int[] arry) {
 		int temp = 0;
@@ -43,7 +43,7 @@ public class ArrySecondMaxNoA50 {
 	}
 
 	public static void main(String[] args) {
-		ArrySecondMaxNoA50 arrySecondMaxNoA50 = new ArrySecondMaxNoA50();
+		As50ArrySecondMaxNo arrySecondMaxNoA50 = new As50ArrySecondMaxNo();
 		int[] input = { 13, 45, 2, 48, 89, 11, 19, 91 };
 		arrySecondMaxNoA50.array(input, 3);
 		arrySecondMaxNoA50.secondMaxNum(input);

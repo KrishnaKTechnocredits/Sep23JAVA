@@ -4,7 +4,7 @@ Input: t1ecehnoecredit983
 Output: 1+9+8+3 = 21 */
 package shrutika;
 
-public class CalSumOfDigitA42 {
+public class As42CalSumOfDigit {
 
 	void sumOfDigit(String input) {
 		int sum = 0;
@@ -29,7 +29,7 @@ public class CalSumOfDigitA42 {
 	}
 
 	public static void main(String[] args) {
-		CalSumOfDigitA42 calSumOfDigitA42 = new CalSumOfDigitA42();
+		As42CalSumOfDigit calSumOfDigitA42 = new As42CalSumOfDigit();
 		calSumOfDigitA42.sumOfDigit("t1ecehnoecredit983");
 	}
 }

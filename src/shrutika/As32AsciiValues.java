@@ -7,7 +7,7 @@ output : Uppercase -> 5
 		 Digit -> 4 */
 package shrutika;
 
-public class AsciiValuesAssig32 {
+public class As32AsciiValues {
 
 	void asciiUpperLowerDigit(String input) {
 		int uCount = 0;
@@ -28,7 +28,7 @@ public class AsciiValuesAssig32 {
 	}
 
 	public static void main(String[] args) {
-		AsciiValuesAssig32 asciiValuesAssig32 = new AsciiValuesAssig32();
+		As32AsciiValues asciiValuesAssig32 = new As32AsciiValues();
 		asciiValuesAssig32.asciiUpperLowerDigit("TeCHNoc33r44editS");
 	}
 }

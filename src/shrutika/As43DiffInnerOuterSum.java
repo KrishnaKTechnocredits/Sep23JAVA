@@ -6,7 +6,7 @@ Inner sum: e->e : 5+4+7 = 16
 Outer sum: t1+dit983 : 1+9+8+3 = 21 */
 package shrutika;
 
-public class DiffInnerOuterSumA43 {
+public class As43DiffInnerOuterSum {
 
 	int getSum(String input) {
 		int sum = 0;
@@ -41,7 +41,7 @@ public class DiffInnerOuterSumA43 {
 	}
 
 	public static void main(String[] args) {
-		DiffInnerOuterSumA43 diffInnerOuterSumA43 = new DiffInnerOuterSumA43();
+		As43DiffInnerOuterSum diffInnerOuterSumA43 = new As43DiffInnerOuterSum();
 		diffInnerOuterSumA43.getChar("t1ec5ehno4e7credit983", 'e');
 	}
 }

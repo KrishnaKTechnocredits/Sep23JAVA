@@ -13,7 +13,7 @@ output : Min length name is : J6a6y
          Max length name is : Technocredits */
 package shrutika;
 
-public class ArryMinMaxLengthA45 {
+public class As45ArryMinMaxLength {
 
 	int lengthOfString(String input) {
 	//	System.out.println(input.length());
@@ -22,14 +22,19 @@ public class ArryMinMaxLengthA45 {
 
 	void maxLengthName(String[] arry) {
 		int maxLength = 0;
+		int minLength =0;
 		String maxLengthName = "";
 		String minLengthName = "";
 		for (int index = 0; index < arry.length; index++) {
 			int length = lengthOfString(arry[index]);
-			if (length > maxLength) {
+			if (index == 0) {
+				maxLength = length;
+				minLength = length;
+			}else if (length > maxLength) {
 				maxLength = length;
 				maxLengthName = arry[index];
-			} else if (length < maxLength) {
+			} else if (length < minLength) {
+				minLength = length;
 				minLengthName = arry[index];
 			}
 		}
@@ -38,7 +43,7 @@ public class ArryMinMaxLengthA45 {
 	}
 
 	public static void main(String[] args) {
-		ArryMinMaxLengthA45 arryMinMaxLengthA45 = new ArryMinMaxLengthA45();
+		As45ArryMinMaxLength arryMinMaxLengthA45 = new As45ArryMinMaxLength();
 		String[] input = new String[4];
 		input[0] = "Rah2u4l";
 		input[1] = "Technocredits";
