@@ -1,3 +1,12 @@
+/*Assignment - 60 : 21st Oct'2023
+
+Using scanner class, print digit sum of each name.
+
+input : Say2al1i Ad9it5ya Shr4utik2a Saks4hi
+output :  Say2al1i -> 3
+          Ad9it5ya -> 14
+		  Shr4utik2a -> 6
+		  Saks4hi -> 4 */
 package shrutika;
 
 import java.util.Scanner;
