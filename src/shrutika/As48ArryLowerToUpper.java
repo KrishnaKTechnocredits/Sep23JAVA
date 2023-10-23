@@ -8,7 +8,7 @@ package shrutika;
 
 import java.util.Arrays;
 
-public class ArryLowerToUpperA48 {
+public class As48ArryLowerToUpper {
 
 	String LowerToUpper(String input) {
 		String output = "";
@@ -34,7 +34,7 @@ public class ArryLowerToUpperA48 {
 	}
 
 	public static void main(String[] args) {
-		ArryLowerToUpperA48 arryLowerToUpperA48 = new ArryLowerToUpperA48();
+		As48ArryLowerToUpper arryLowerToUpperA48 = new As48ArryLowerToUpper();
 		// arryLowerToUpperA48.LowerToUpper("Rah2u4l");
 		String[] input = new String[2];
 		input[0] = "Rah2u4l";

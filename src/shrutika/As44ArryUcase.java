@@ -13,7 +13,7 @@ package shrutika;
 
 import java.util.Arrays;
 
-public class ArryUcaseA44 {
+public class As44ArryUcase {
 
 	String uCase(String input) {
 		String output = "";
@@ -40,7 +40,7 @@ public class ArryUcaseA44 {
 	}
 
 	public static void main(String[] args) {
-		ArryUcaseA44 arryUcaseA44 = new ArryUcaseA44();
+		As44ArryUcase arryUcaseA44 = new As44ArryUcase();
 		String[] input = new String[4];
 		input[0] = "Rah2u4l";
 		input[1] = "Technocredits";

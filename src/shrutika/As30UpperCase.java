@@ -6,7 +6,7 @@ input : "TeCHNocreditS";
 output : TCHNS*/
 package shrutika;
 
-public class UpperCaseAssig30 {
+public class As30UpperCase {
 
 	void upperCase(String input) {
 		String output = "";
@@ -21,7 +21,7 @@ public class UpperCaseAssig30 {
 	}
 
 	public static void main(String[] args) {
-		UpperCaseAssig30 upperCaseAssig30 = new UpperCaseAssig30();
+		As30UpperCase upperCaseAssig30 = new As30UpperCase();
 		upperCaseAssig30.upperCase("TeCHNocreditS");
 	}
 }

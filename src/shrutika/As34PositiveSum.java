@@ -4,7 +4,7 @@ input : {10,3,44,33,35}
 output : 17 */
 package shrutika;
 
-public class PositiveSumA34 {
+public class As34PositiveSum {
 
 	int getSumOfNum(int[] arrInput) {
 		int evenSum = 0;
@@ -27,7 +27,7 @@ public class PositiveSumA34 {
 
 	public static void main(String[] args) {
 		int[] input = { 10, 3, 44, 33, 35 };
-		PositiveSumA34 positiveSumA34 = new PositiveSumA34();
+		As34PositiveSum positiveSumA34 = new As34PositiveSum();
 		int output = positiveSumA34.getSumOfNum(input);
 		System.out.println(output);
 	}

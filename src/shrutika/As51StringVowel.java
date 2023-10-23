@@ -3,7 +3,7 @@ String str = "technocredits";
 output : eoei */
 package shrutika;
 
-public class StringVowelA51 {
+public class As51StringVowel {
 
 	void getVowel(String input) {
 		String str = "";
@@ -17,7 +17,7 @@ public class StringVowelA51 {
 	}
 
 	public static void main(String[] args) {
-		StringVowelA51 stringVowelA51 = new StringVowelA51();
+		As51StringVowel stringVowelA51 = new As51StringVowel();
 		stringVowelA51.getVowel("technocredits");
 	}
 }

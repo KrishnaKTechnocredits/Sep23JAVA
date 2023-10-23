@@ -1,6 +1,6 @@
 package shrutika;
 
-public class InheritanceStudentA37 extends InheritanceCollegeA37 {
+public class As37InheritanceStudent extends As37InheritanceCollege {
 
 	int studentId = 30;
 	int registerNo = 40;

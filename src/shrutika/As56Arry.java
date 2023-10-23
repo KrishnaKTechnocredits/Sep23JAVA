@@ -1,16 +1,14 @@
-/*Assignment-55 : 13th Oct'2023 Print vowels in array of string
+/*Assignment-56 : 13th Oct'2023 Print vowels of longest string in an array
+
 String[] str = {"technocredits","aakanksha","yogesh","shamli"}; 
 output : technocredits -> eoei     
-    aakanksha -> aaaa 
-    yogesh -> oe 
-    shamli -> ai 
    */
 package shrutika;
 
-public class ArryA55 {
+public class As56Arry {
+	String str = "";
 
-	String getVowel(String input) {
-		String str = "";
+	String vowel(String input) {
 		for (int index = 0; index < input.length(); index++) {
 			char ch = input.charAt(index);
 			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
@@ -20,17 +18,19 @@ public class ArryA55 {
 		return str;
 	}
 
-	void printVowel(String[] arry) {
-		String[] newArry = new String[arry.length];
+	void longestString(String[] arry) {
+		String maxLength = "";
 		for (int index = 0; index < arry.length; index++) {
-			newArry[index] = getVowel(arry[index]);
-			System.out.println(arry[index] + " -> " + newArry[index]);
+			if (arry[index].length() > maxLength.length()) {
+				maxLength = arry[index];
+			}
 		}
+		str = vowel(maxLength);
+		System.out.println(maxLength + " -> " + str);
 	}
 
 	public static void main(String[] args) {
 		String[] input = { "technocredits", "aakanksha", "yogesh", "shamli" };
-		ArryA55 arryA55 = new ArryA55();
-		arryA55.printVowel(input);
+		new As56Arry().longestString(input);
 	}
 }

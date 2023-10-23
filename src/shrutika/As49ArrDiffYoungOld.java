@@ -4,7 +4,7 @@ int[] age = {13,45,2,48,89,91};
 output : (91-2) 89 */
 package shrutika;
 
-public class ArrDiffYoungOldA49 {
+public class As49ArrDiffYoungOld {
 
 	void ageDiff(int[] input) {
 		int diff = 0;
@@ -26,6 +26,6 @@ public class ArrDiffYoungOldA49 {
 
 	public static void main(String[] args) {
 		int[] input = { 13, 45, 2, 48, 89, 91 };
-		new ArrDiffYoungOldA49().ageDiff(input);
+		new As49ArrDiffYoungOld().ageDiff(input);
 	}
 }

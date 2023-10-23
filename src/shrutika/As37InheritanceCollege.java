@@ -1,6 +1,6 @@
 package shrutika;
 
-public class InheritanceCollegeA37 {
+public class As37InheritanceCollege {
 
 	int rollno = 10;
 	int registerNo = 20;

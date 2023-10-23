@@ -3,7 +3,7 @@ String str = "technocredits";
 output : 4 */
 package shrutika;
 
-public class StringVowelCntA52 {
+public class As52StringVowelCnt {
 
 	void vowel(String input) {
 		int count = 0;
@@ -17,7 +17,7 @@ public class StringVowelCntA52 {
 	}
 
 	public static void main(String[] args) {
-		StringVowelCntA52 stringVowelCntA52 = new StringVowelCntA52();
+		As52StringVowelCnt stringVowelCntA52 = new As52StringVowelCnt();
 		stringVowelCntA52.vowel("technocredits");
 	}
 }

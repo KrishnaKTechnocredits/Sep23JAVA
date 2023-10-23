@@ -11,7 +11,7 @@ package shrutika;
 
 import java.util.Arrays;
 
-public class ArrEliminateDigitA47 {
+public class As47ArrEliminateDigit {
 
 	String getOutput(String input) {
 		String output ="";
@@ -32,7 +32,7 @@ public class ArrEliminateDigitA47 {
 	}
 	
 	public static void main(String[] args) {
-		ArrEliminateDigitA47 arrEliminateDigitA47 = new ArrEliminateDigitA47();
+		As47ArrEliminateDigit arrEliminateDigitA47 = new As47ArrEliminateDigit();
 		String[] input = new String[4];
 		input[0] = "Rah2u4l";
 		input[1] = "Tech3no3credits";

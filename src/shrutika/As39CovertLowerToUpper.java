@@ -5,7 +5,7 @@ output : yO7geSh */
 
 package shrutika;
 
-public class CovertLowerToUpperA39 {
+public class As39CovertLowerToUpper {
 
 	void lowerToUpper(String input) {
 		String output = "";
@@ -24,7 +24,7 @@ public class CovertLowerToUpperA39 {
 	}
 
 	public static void main(String[] args) {
-		CovertLowerToUpperA39 covertLowerToUpperA39 = new CovertLowerToUpperA39();
+		As39CovertLowerToUpper covertLowerToUpperA39 = new As39CovertLowerToUpper();
 		covertLowerToUpperA39.lowerToUpper("Yo7GEsH");
 	}
 }

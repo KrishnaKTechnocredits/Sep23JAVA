@@ -5,7 +5,7 @@ input : "TeCHNocreditS";
 output : TCHNS */
 package shrutika;
 
-public class AsciiAssig31 {
+public class As31Ascii {
 
 	void ascii(String input) {
 		for (int index = 0; index < input.length(); index++) {
@@ -18,7 +18,7 @@ public class AsciiAssig31 {
 	}
 
 	public static void main(String[] args) {
-		AsciiAssig31 asciiAssig31 = new AsciiAssig31();
+		As31Ascii asciiAssig31 = new As31Ascii();
 		asciiAssig31.ascii("TeCHNocreditS");
 	}
 }
