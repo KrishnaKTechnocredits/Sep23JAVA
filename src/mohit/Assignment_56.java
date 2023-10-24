@@ -5,7 +5,7 @@ Expected output:
          aakanksha -> aaaa
 	 	 yogesh -> vowels count is less than 2 in given string
 	 	 shamli -> vowels count is less than 2 in given string*/
-
+////
 package mohit;
 
 public class Assignment_56 {
