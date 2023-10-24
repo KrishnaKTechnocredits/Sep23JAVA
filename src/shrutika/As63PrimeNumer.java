@@ -20,6 +20,7 @@ public class As63PrimeNumer {
 	// System.out.println("Number is Prime");
 	// } else
 	// System.out.println("Number is not Prime");
+	// }
 
 	void primeNumberCount(int startNum, int endNum) {
 		int count = 0;
