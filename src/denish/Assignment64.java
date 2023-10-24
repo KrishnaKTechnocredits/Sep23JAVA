@@ -6,7 +6,6 @@ public class Assignment64 {
 
 	void armstrongNumber(int startRange, int endRange) {
 		int count = 0;
-		System.out.println();
 		System.out.println("Armstrong numbers in range of " + startRange + " to " + endRange);
 		for (int index = startRange; index <= endRange; index++) {
 			boolean flag = this.isArmstrong(index);
