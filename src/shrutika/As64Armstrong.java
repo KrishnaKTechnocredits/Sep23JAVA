@@ -4,7 +4,7 @@
 
 package shrutika;
 
-public class As63Armstrong {
+public class As64Armstrong {
 
 	boolean amstrongNum(int num) {
 		int temp = num;
@@ -41,7 +41,7 @@ public class As63Armstrong {
 	}
 
 	public static void main(String[] args) {
-		As63Armstrong as63Armstrong = new As63Armstrong();
+		As64Armstrong as63Armstrong = new As64Armstrong();
 		as63Armstrong.amstrongNumCount(0, 9999);
 		as63Armstrong.amstrongNumCount(900, 1100);
 	}
