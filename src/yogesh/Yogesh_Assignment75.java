@@ -20,6 +20,7 @@ import java.util.ArrayList;
 public class Yogesh_Assignment75 {
 
 	void occurance(ArrayList<Character> charList, char ch) {
+		System.out.println("Input1:--"+charList);
 		int firstIndex = charList.indexOf(ch);
 		int lastIndex = charList.lastIndexOf(ch);
 
@@ -44,6 +45,6 @@ public class Yogesh_Assignment75 {
 		charList.add('t');
 		charList.add('u');
 		assignment75.occurance(charList, 't');
-		System.out.println(charList);
+		System.out.println("output:--"+charList);
 	}
 }

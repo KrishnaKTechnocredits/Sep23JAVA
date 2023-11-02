@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class Yogesh_Assignment76 {
 
 	void getDuplicateList(ArrayList<String> listOfNames) {
-		System.out.println(listOfNames);
+		System.out.println("Input:--"+listOfNames);
 		for (int i = 0; i < listOfNames.size(); i++) {
 			String str = listOfNames.get(i);
 			if (listOfNames.indexOf(str)!= listOfNames.lastIndexOf(str)) {
@@ -36,6 +36,6 @@ public class Yogesh_Assignment76 {
 		names.add("Hi");
 
 		assignment76.getDuplicateList(names);
-		System.out.println(names);
+		System.out.println("output:--"+names);
 }
 }
