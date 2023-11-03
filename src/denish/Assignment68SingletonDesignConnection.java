@@ -12,7 +12,7 @@ public class Assignment68SingletonDesignConnection {
 		System.out.println("Connection to DB!");
 	}
 
-	static Assignment68SingletonDesignConnection getObject() {
+	public static Assignment68SingletonDesignConnection getObject() {
 		if (con == null) {
 			con = new Assignment68SingletonDesignConnection();
 		}
