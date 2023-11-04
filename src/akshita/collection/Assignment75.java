@@ -5,13 +5,14 @@ package akshita.collection;
 import java.util.ArrayList;
 
 public class Assignment75 {
-	
-	void replace(ArrayList<Character> input , char ch) {
-		if(input.lastIndexOf(ch) != input.indexOf(ch)) {
+
+	void replace(ArrayList<Character> input, char ch) {
+		System.out.println("Input : " +input);
+		if (input.lastIndexOf(ch) != input.indexOf(ch)) {
 			input.set(input.indexOf(ch), 'a');
 			input.set(input.lastIndexOf(ch), 'b');
 		}
-		System.out.println(input);
+		System.out.println("Output : " +input);
 	}
 
 	public static void main(String[] args) {
@@ -26,6 +27,6 @@ public class Assignment75 {
 		charList.add('t');
 		charList.add('t');
 		charList.add('u');
-        ass75.replace(charList ,'t');
+		ass75.replace(charList, 't');
 	}
 }
