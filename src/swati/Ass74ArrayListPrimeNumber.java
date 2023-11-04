@@ -39,7 +39,7 @@ public class Ass74ArrayListPrimeNumber {
 		intlist.add(53);
 		intlist.add(97);
 		ArrayList<Integer> outputArraylist = new Ass74ArrayListPrimeNumber().findPrimeNumber(intlist);
-		System.out.println("Input: " + intlist);
-		System.out.println("Prime Numbers: " + outputArraylist);
+		System.out.println("Input : " + intlist);
+		System.out.println("Prime Numbers : " + outputArraylist);
 	}
 }
