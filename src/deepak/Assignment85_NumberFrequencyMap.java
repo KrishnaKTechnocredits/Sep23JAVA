@@ -43,6 +43,5 @@ public class Assignment85_NumberFrequencyMap {
 		int[] input = { 10, 20, 10, 11, 19, 11, 20, 20, 20 };
 		Map<Integer, Integer> numMap = output.getNumberFrequency(input);
 		output.printNumberFrequency(numMap);
-
 	}
 }
