@@ -18,7 +18,7 @@ public class Assignment85 {
 		Map<Integer, Integer> numMap = new TreeMap<Integer, Integer>();
 		for(int num : arr) {
 			if(numMap.containsKey(num)) {
-				numMap.put(num, numMap.get(num));
+				numMap.put(num, numMap.get(num)+1);
 			}else {
 				numMap.put(num, 1);
 			}
