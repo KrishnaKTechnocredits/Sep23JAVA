@@ -4,7 +4,7 @@ frequency from given String. input : aakanksha output : aakanksha -> a -> 4 inpu
 
 package shrutika;
 
-public class MaxFrequency {
+public class As21MaxFrequency {
 
 	int getChar(String input, char ch) {
 		int count = 0;
@@ -30,7 +30,7 @@ public class MaxFrequency {
 	}
 
 	public static void main(String[] args) {
-		MaxFrequency maxFrequency = new MaxFrequency();
+		As21MaxFrequency maxFrequency = new As21MaxFrequency();
 		maxFrequency.charMaxFrequency("aakanksha");
 		maxFrequency.charMaxFrequency("teecccchnoceredites");
 	}
