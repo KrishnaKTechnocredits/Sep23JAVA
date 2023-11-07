@@ -14,7 +14,7 @@
 //a->4
 package shrutika;
 
-public class CharFreq {
+public class As20CharFreq {
 
 	void charFreqInfo(String input) {
 		for (int index = 0; index < input.length(); index++) {
@@ -30,7 +30,7 @@ public class CharFreq {
 	}
 
 	public static void main(String[] args) {
-		CharFreq charFreq = new CharFreq();
+		As20CharFreq charFreq = new As20CharFreq();
 		charFreq.charFreqInfo("aakanksha");
 	}
 

@@ -8,7 +8,7 @@ output : a -> 4
          h -> 1*/
 package shrutika;
 
-public class CharFreqForLoop {
+public class As25CharFreqForLoop {
 
 	void charFreq(String input) {
 		for (int index = 0; index < input.length(); index++) {
@@ -27,7 +27,7 @@ public class CharFreqForLoop {
 	}
 
 	public static void main(String[] args) {
-		CharFreqForLoop charFreqForLoop = new CharFreqForLoop();
+		As25CharFreqForLoop charFreqForLoop = new As25CharFreqForLoop();
 		charFreqForLoop.charFreq("aakanksha");
 	}
 }
