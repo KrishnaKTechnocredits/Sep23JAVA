@@ -50,7 +50,6 @@ public class As78ReplaceOccurance {
 		listOfNames.add("Onkar");
 		listOfNames.add("Gaurang");
 		listOfNames.add("Jyoti");
-		System.out.println(
-				"Output ArrayList : " + new As78ReplaceOccurance().replaceString(listOfNames, "Gaurang", "Rahul"));
+		System.out.println("Output ArrayList : " + new As78ReplaceOccurance().replaceString(listOfNames, "Gaurang", "Rahul"));
 	}
 }
