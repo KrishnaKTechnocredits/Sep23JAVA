@@ -32,11 +32,10 @@ public class Assignment87 {
 		Set<String> str = hm.keySet();
 		for (String input : str) {
 			if (hm.get(input) > max) {
-				max = hm.get(input);
 				maxChar = input;
 			}
 		}
-		System.out.println("Output : " + maxChar + "=>" + max);
+		System.out.println("Output : " + maxChar);
 	}
 
 	public static void main(String[] args) {
