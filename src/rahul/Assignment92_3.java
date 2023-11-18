@@ -1,4 +1,4 @@
-
+/*WAP to find word frequency, where text file is created and used to find word frequency*/
 
 package rahul;
 
