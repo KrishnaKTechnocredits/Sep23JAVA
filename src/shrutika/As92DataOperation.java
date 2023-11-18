@@ -20,12 +20,12 @@ public class As92DataOperation {
 		Properties prop = new Properties();
 		prop.load(input);
 		String value = prop.getProperty("username");
-		System.out.println("Enviornment= " + value);// key exits
+		System.out.println("Username= " + value);// key exits
 
 		String value1 = prop.getProperty("browser");
 		System.out.println("Browser= " + value1);// key does not exits
 
 		String value2 = prop.getProperty("env");
-		System.out.println("username= " + value2);// same key with different value(duplicate key)
+		System.out.println("Enviornment= " + value2);// same key with different value(duplicate key)
 	}
 }
