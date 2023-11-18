@@ -13,19 +13,29 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class As92DataOperation {
-
-	public static void main(String[] args) throws IOException {
-		File file = new File(".\\src\\shrutika\\As92TestData.Properties");
-		FileInputStream input = new FileInputStream(file);
-		Properties prop = new Properties();
-		prop.load(input);
-		String value = prop.getProperty("username");
+	
+	Properties properties;
+	
+	public As92DataOperation(String filePath) throws IOException {
+		File file = new File(filePath);
+		FileInputStream fileInputStream = new FileInputStream(file);
+		properties = new Properties();
+		properties.load(fileInputStream);
+	}
+	
+	public String getValue(String key) {
+		return properties.getProperty(key);
+	}
+	
+	public static void main(String[] args) throws IOException  {
+		As92DataOperation Operation = new As92DataOperation(".\\src\\shrutika\\As92TestData.Properties");
+		String value = Operation.getValue("username");
 		System.out.println("Username= " + value);// key exits
 
-		String value1 = prop.getProperty("browser");
+		String value1 = Operation.getValue("browser");
 		System.out.println("Browser= " + value1);// key does not exits
 
-		String value2 = prop.getProperty("env");
+		String value2 = Operation.getValue("env");
 		System.out.println("Enviornment= " + value2);// same key with different value(duplicate key)
 	}
 }
