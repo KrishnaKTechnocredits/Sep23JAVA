@@ -29,7 +29,7 @@ public class As95MaxWordInFile {
 			}
 		}
 		sc.close();
-		System.out.println("Number of Max Words in sentence is :\n " + maxWord + " -> " + countWord);
+		System.out.println("Sentence having maximum words is  :\n " + maxWord + " -> " + countWord);
 	}
 
 	public static void main(String[] args) throws FileNotFoundException {
