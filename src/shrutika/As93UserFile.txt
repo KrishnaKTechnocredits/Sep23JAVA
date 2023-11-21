@@ -1,0 +1,3 @@
+I am Shrutika 
+Currently working on Assignments
+Testing the text file reading using the scanner class
