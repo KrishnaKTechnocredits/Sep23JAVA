@@ -1,0 +1,3 @@
+Hello,
+
+Java course is finished today and we have started with 'Selenium' today.It will be completed in December, 2023.
